@@ -1,0 +1,53 @@
+{
+  "name": "ep_rev_transcription",
+  "version": "0.0.1",
+  "description": "Used for transcription of audio files",
+  "author": {
+    "name": "Ayushman Manishankar",
+    "email":  "ayushman.manishankar@reverieinc.com",
+    "github": "https://github.com/ayushmanmanishankar"
+  },
+  "keywords": [
+    "etherpad",
+    "plugin",
+    "ep"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayushmanmanishankar/ep_rev_transcription.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayushmanmanishankar/ep_rev_transcription/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://etherpad.org/"
+  },
+  "dependencies": {
+    
+  },
+  "peerDependencies": {
+    "ep_etherpad-lite":">=1.8.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-etherpad": "^1.0.24",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0"
+  },
+    "eslintConfig": {
+    "root": true,
+    "extends": "etherpad/plugin"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}

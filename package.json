@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ep_rev_transcription": "file:ep_rev_transcription"
+  }
+}
